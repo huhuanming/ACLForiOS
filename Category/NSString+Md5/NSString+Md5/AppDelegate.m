@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NSString+Md5.h"
 
 @interface AppDelegate ()
 

@@ -19,18 +19,24 @@
 
 *Template follows:*
 
-x.x.x Release notes (yyyy-MM-dd)
+0.1.1 Release notes (2014-12-02)
 =============================================================
 
-?? summary
+为 NSString 拓展了 MD5 编码方法
 
 ### API breaking changes
 
-* None.
+* encodeMd5 -> encode32LowercaseMd5
+
 
 ### Enhancements
 
-* None.
+*  增加 encode32UppercaseMd5 方法
+*  增加 encode16LowercaseMd5 方法
+*  增加 encode16UppercaseMd5 方法
+
+
+
 
 ### Bugfixes
 
